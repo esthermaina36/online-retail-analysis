@@ -19,4 +19,17 @@ This project analyzes an online retail dataset from raw data through cleaning, e
 - Analyze the data using SQL
 - Identify useful patterns and trends
 - Build an interactive Power BI dashboard
-- Present the findings in a clear and understandable way
+- Present the findings in a clear and understandable way.
+
+- ## Dataset
+
+The dataset contains transactional records from an online retail business.
+
+### Dataset Details
+
+- **Rows:** 541,909
+- **Columns:** 8
+- **Time Period:** December 2010 – December 2011
+- **Countries:** Multiple countries, with the majority of transactions from the United Kingdom
+- **Main identifiers:** InvoiceNo, StockCode, CustomerID
+- **Main measures:** Quantity and UnitPrice
