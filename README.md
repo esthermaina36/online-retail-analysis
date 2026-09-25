@@ -9,7 +9,7 @@ This project analyzes an online retail dataset from raw data through cleaning, e
 - Excel
 - Python (Pandas)
 - MySQL
-- Power BI- 
+- Power BI
 - Git & GitHub
 
 - ## Project Goals
@@ -74,7 +74,7 @@ SQL was used to:
 - Query and filter transactional data
 - Analyze sales by country
 - Examine customer and invoice activity
-- Identify product-level patterns
+- Identify product level patterns
 - Aggregate and summarize sales data
 - Answer specific business questions using SQL
 
@@ -91,3 +91,45 @@ The dashboard presents:
 - Customer activity
 - Monthly and yearly patterns
 - Interactive filters and slicers for exploring the data
+
+- ## Key Findings
+
+### Data Quality
+
+* The original dataset contained **541,909 rows and 8 columns**.
+* **5,268 duplicate rows** were identified and removed, resulting in **536,641 rows** in the cleaned dataset.
+* Missing `CustomerID` values were retained because removing them would result in substantial data loss. Customer level analysis was performed using records with identifiable `CustomerID` values.
+* Negative quantities were investigated and were frequently associated with cancellation invoices beginning with `C`.
+* Two records contained negative `UnitPrice` values and were identified as **"Adjust bad debt"** records. These were treated as accounting adjustments rather than automatically removed.
+
+### Country Analysis
+
+* The **United Kingdom** dominated the dataset in transaction volume and total revenue.
+* The UK recorded **20,122 non cancellation invoices** in the sales dataset and generated approximately **£8.98 million** in revenue.
+* The Netherlands recorded the highest average revenue per transaction among the top 10 countries, at approximately **3,005**, followed by Australia and Japan.
+
+### Product Analysis
+
+* **WORLD WAR 2 GLIDERS ASSTD DESIGNS** recorded the highest positive quantity, with **53,751 units**.
+* **REGENCY CAKESTAND 3 TIER** was the highest revenue generating product, generating approximately **174,157** in revenue.
+* The analysis showed that some `StockCode` values can have multiple descriptions, making it useful to analyze `StockCode` together with `Description`.
+
+### Monthly Sales and Revenue
+
+* **November 2011** recorded the highest net quantity at **737,182 units**.
+* November also generated the highest net revenue at approximately **1.46 million**.
+* Revenue increased substantially from August through November.
+* December 2011 recorded lower sales and revenue, but the month is incomplete because the dataset ends on **December 9, 2011**.
+
+### Customer Analysis
+
+* Customer revenue was not evenly distributed.
+* **Customer 14646** generated the highest total revenue at approximately **£280,206**, followed by customers **18102** and **17450**.
+* A relatively small number of customers contributed a substantial share of the revenue among the highest-revenue customers analyzed.
+
+### Returns and Cancellations
+
+* The cleaned dataset contained **25,900 unique invoice numbers**.
+* **3,836 unique invoices** were identified as cancellation invoices, representing approximately **14.8%** of unique invoice numbers.
+* Cancellation records were retained and analyzed separately rather than being automatically deleted.
+
