@@ -47,3 +47,20 @@ The cleaning process :
 - Removing duplicate records
 - Creating calculated fields needed for analysis
 - Preparing the cleaned dataset for further analysis
+
+- ## EDA
+
+Exploratory Data Analysis was performed to understand the structure, patterns, and characteristics of the retail data.
+
+The analysis explored:
+
+- Sales transactions and invoice activity
+- Product quantities and prices
+- Revenue generated from transactions
+- Customer activity
+- Sales across different countries
+- Monthly and yearly sales patterns
+- Frequently purchased products
+- Unusual or potentially problematic records
+
+The analysis helped identify patterns and questions that were explored further through SQL and Power BI.
