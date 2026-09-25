@@ -33,3 +33,17 @@ The dataset contains transactional records from an online retail business.
 - **Countries:** Multiple countries, with the majority of transactions from the United Kingdom
 - **Main identifiers:** InvoiceNo, StockCode, CustomerID
 - **Main measures:** Quantity and UnitPrice
+
+- ## Data Cleaning & Preparation
+
+The raw dataset was inspected and cleaned before analysis.
+
+The cleaning process :
+
+- Checking the dataset structure and data types
+- Identifying missing values
+- Identifying duplicate records
+- Investigating negative quantities and prices
+- Removing duplicate records
+- Creating calculated fields needed for analysis
+- Preparing the cleaned dataset for further analysis
