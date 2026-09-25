@@ -143,3 +143,20 @@ The dashboard presents:
 * **3,836 unique invoices** were identified as cancellation invoices, representing approximately **14.8%** of unique invoice numbers.
 * Cancellation records were retained and analyzed separately rather than being automatically deleted.
 
+## Project Structure
+
+
+online-retail-analysis/
+│
+├── data/                         # Raw and processed datasets
+├── notebooks/                    # Python analysis and EDA
+├── powerbi/                      # Power BI dashboard files
+├── reports/                      # Analysis reports and documentation
+├── sql/                          # SQL queries and analysis
+├── visualizations/               # Charts and visual outputs
+├── OnlineRetailDashboardOverview.png
+├── OnlineRetailDashboardDetails.png
+└── README.md                     # Project documentation
+```
+
+
