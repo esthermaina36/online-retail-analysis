@@ -77,3 +77,17 @@ SQL was used to:
 - Identify product-level patterns
 - Aggregate and summarize sales data
 - Answer specific business questions using SQL
+
+
+## Power BI Dashboard
+
+The analyzed data was visualized in Power BI to create an interactive dashboard.
+
+The dashboard presents:
+
+- Sales and revenue trends
+- Sales by country
+- Product performance
+- Customer activity
+- Monthly and yearly patterns
+- Interactive filters and slicers for exploring the data
