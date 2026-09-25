@@ -92,6 +92,16 @@ The dashboard presents:
 - Monthly and yearly patterns
 - Interactive filters and slicers for exploring the data
 
+- ### Dashboard Preview
+
+#### Dashboard Overview
+
+![Online Retail Dashboard Overview](OnlineRetailDashboardOverview.png)
+
+#### Dashboard Details
+
+![Online Retail Dashboard Details](OnlineRetailDashboardDetails.png)
+
 - ## Key Findings
 
 ### Data Quality
