@@ -64,3 +64,16 @@ The analysis explored:
 - Unusual or potentially problematic records
 
 The analysis helped identify patterns and questions that were explored further through SQL and Power BI.
+
+## SQL Analysis
+
+The cleaned retail data was imported into MySQL for further analysis.
+
+SQL was used to:
+
+- Query and filter transactional data
+- Analyze sales by country
+- Examine customer and invoice activity
+- Identify product-level patterns
+- Aggregate and summarize sales data
+- Answer specific business questions using SQL
